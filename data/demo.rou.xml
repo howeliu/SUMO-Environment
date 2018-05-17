@@ -1,0 +1,14 @@
+<routes>
+    <flow id="WE" begin="0" end="100000" probability="1">
+          <route edges="23 34"/>
+    </flow>
+    <flow id="EW" begin="0" end="100000" probability="1">
+          <route edges="43 32"/>
+    </flow>
+    <flow id="NS" begin="0" end="100000" probability="0.1">
+          <route edges="13 35"/>
+    </flow>
+    <flow id="SN" begin="0" end="100000" probability="0.1">
+          <route edges="53 31"/>
+    </flow>
+</routes>
